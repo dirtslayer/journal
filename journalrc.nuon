@@ -1,0 +1,26 @@
+# journalrc.nuon, nuon config file 
+{
+# this file
+"config file" : "~/git/journal/journalrc.nuon"
+
+# source of journal module, use this
+"module folder" : "~/git/journal"
+
+# where are journal folders and entries
+"document root folder" : "~/Journal"
+
+# when a new md journal entry is created, this
+# template config file is used along with daily skel
+
+"template config file" : "~/git/journal/nut-template-config.nu"
+
+
+#skel
+
+# name, command
+
+"markdown skel daily journal" : "~/git/journal/skel/daily.nut.md"
+
+"kra skel a4 100mm graph" : "file"
+}
+
